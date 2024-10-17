@@ -1,4 +1,5 @@
-import java.io.File;
+package Encriptador;
+
 import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.file.Files;
