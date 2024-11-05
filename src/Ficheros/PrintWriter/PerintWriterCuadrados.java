@@ -1,4 +1,4 @@
-package PrintWriter;
+package Ficheros.PrintWriter;
 
 import java.io.File;
 import java.io.FileWriter;

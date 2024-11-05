@@ -1,4 +1,4 @@
-package Ejercicio3;
+package Ficheros.Ejercicio3;
 
 public class CuentaBancaria {
     private String numreCuenta;
@@ -35,5 +35,6 @@ public class CuentaBancaria {
             dinero-=cantidad;
         }
     }
+
 
 }

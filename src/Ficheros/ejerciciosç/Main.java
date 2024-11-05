@@ -1,4 +1,4 @@
-package ejerciciosç;
+package Ficheros.ejerciciosç;
 
 public class Main {
     public static void main(String[] args) {

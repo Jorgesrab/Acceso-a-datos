@@ -1,4 +1,4 @@
-package EjercicosReader;
+package Ficheros.EjercicosReader;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -7,7 +7,7 @@ import java.io.IOException;
 public class bifferReaderBuscapalabras {
     public static void main(String[] args) {
         String ruta = "C:\\Users\\Alumno\\Desktop\\nostrum.txt";
-        String palabraBusar ="droga";
+        String palabraBusar ="Robert";
         int contador = 0;
 
         try (BufferedReader reader = new BufferedReader(new FileReader(ruta))){

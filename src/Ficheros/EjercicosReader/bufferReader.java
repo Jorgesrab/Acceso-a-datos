@@ -1,9 +1,8 @@
-package EjercicosReader;
+package Ficheros.EjercicosReader;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
 
 public class bufferReader {
     public static void main(String[] args) {
@@ -24,3 +23,4 @@ public class bufferReader {
         System.out.println("El archivo tiene "+contador+" lineas");
     }
 }
+     

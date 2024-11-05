@@ -1,4 +1,4 @@
-package EjerccicioArticulo;
+package Ficheros.EjerccicioArticulo;
 
 public class Articulo {
     private String nombre;

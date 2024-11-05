@@ -1,4 +1,4 @@
-package EjercicosReader;
+package Ficheros.EjercicosReader;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

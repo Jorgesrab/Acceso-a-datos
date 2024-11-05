@@ -1,4 +1,4 @@
-package EjerccicioArticulo;
+package Ficheros.EjerccicioArticulo;
 
 public class Main {
     public static void main(String[] args) {

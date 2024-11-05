@@ -1,4 +1,4 @@
-package EjericiosWriter;
+package Ficheros.EjericiosWriter;
 
 
 import java.io.*;

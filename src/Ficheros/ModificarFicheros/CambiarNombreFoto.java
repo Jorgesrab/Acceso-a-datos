@@ -1,4 +1,4 @@
-package ModificarFicheros;
+package Ficheros.ModificarFicheros;
 
 import java.io.File;
 import java.io.IOException;

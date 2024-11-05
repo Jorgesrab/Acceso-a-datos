@@ -1,4 +1,4 @@
-package Encriptador;
+package Ficheros.Encriptador;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -7,7 +7,7 @@ import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Encriptador {
+public class Desencriptador {
 
     public static void main(String[] args) {
         String rutaArchivo = "C:\\Users\\Alumno\\Desktop\\notas.txt";
@@ -29,9 +29,8 @@ public class Encriptador {
 
                 for (char c : linea.toCharArray()) {
 
-                    char charSiguiente = (char) (c+1);
-                    textoModificado.append(charSiguiente) ;
-
+                    char charAnterior = (char) (c-1);
+                    textoModificado.append(charAnterior) ;
                 }
                 textoModificado.append("\n");
 
