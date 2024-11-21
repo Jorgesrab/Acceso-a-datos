@@ -33,7 +33,7 @@ public class deleteUsuarios {
         } else {
             System.out.println("Usuario o contraseña incorrectos");
         }
-0
+
         scanner.close();
     }
 
