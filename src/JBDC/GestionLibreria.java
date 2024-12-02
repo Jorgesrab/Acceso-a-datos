@@ -29,7 +29,7 @@ public class GestionLibreria {
             System.out.println("=== Menú Genérico ===");
             System.out.println("1. Comprar libro");
             System.out.println("2. Vender libro");
-            System.out.println("3. Acción 3");
+            System.out.println("3. Mostrar libros");
             System.out.println("4. Acción 4");
             System.out.println("5. Salir");
             System.out.print("Elige una opción: ");
@@ -41,7 +41,7 @@ public class GestionLibreria {
             switch (opcion) {
                 case 1 -> comprarLibro();
                 case 2 -> venderLibro();
-                case 3 -> comprarLibro() ;
+                case 3 ->  mostrarLibro(0);
                 case 4 -> comprarLibro();
                 case 5 -> System.out.println("Gracias por usar la aplicación");
                 default -> System.out.println("Opcion no valida vuelve a intentarlo") ;
